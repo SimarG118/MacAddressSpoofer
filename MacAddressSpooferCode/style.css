@@ -1,0 +1,317 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#09090B;
+    color: white;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    max-height: 30%;
+}
+.menu-bar-button{
+    border:none;
+    background-color:white;
+}
+
+.item{
+    
+    display: flex;
+    border: 2px solid black;
+    background-color:#232323;
+    flex:1;
+    flex-direction: column;
+    
+    
+}
+.title{
+    font-size: 1.7rem;
+}
+.item-1{
+    font-size: 1.6vw;
+    border-radius: 20px;
+    max-height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+}
+.item-2{
+    flex-grow: 1.4;
+    padding-left: 2%;
+    padding-right: 1%;
+    border-radius: 20px;
+    display: flex;
+}
+
+
+
+.padding-for-item-2{
+    width: 20px;
+}
+.a2 {
+    padding-top: 4%;
+    
+    text-align: left;
+}
+
+
+
+.container {
+    gap:1rem;
+    display: flex;
+    min-height: 90vh;    
+    
+}
+
+.mac-address-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    width: 95%;
+    height: 17%;
+    border-radius: 30px;
+    align-self: center;
+    
+}
+
+/* .selected-mac-address-container{
+    border: 2px solid black;
+} */
+
+
+
+.flexTable{
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-height: 70%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    text-align: center;
+}
+.column{
+    display: flex;
+    min-height: 70px;
+    padding-bottom: 6%;
+    text-align: center;
+    align-content: center;
+   
+}
+
+
+.Data{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hover-for-end{
+    border: 2px solid;
+    
+    border-right-color: blue;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-left-color: #161616;
+}
+
+.hover-for-start{
+    
+    border: 2px solid ;
+    border-right-color: #161616;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    
+    
+}
+.hover-for-data{
+    border: 2px solid ;
+    border-left-color: #1B1B1B;
+    border-right-color: #1B1B1B;
+    border-top-color: blue;
+    border-bottom-color: blue;
+}
+
+.Start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #161616;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.End{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #161616;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Data {
+    padding-left: 2%;
+    width: 60%;
+    background-color: #1B1B1B;
+    text-align: center;
+    align-items: center;  
+   
+}
+
+.gap{
+    height: 3%;
+}
+
+.gap-for-2{
+    height: 5%;
+}
+.info-container{
+    background-color: #161616;
+    border-radius: 25px;
+    
+    height: 82%;
+}
+.title-for-info{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.link-status{
+    padding-bottom: 7%;
+    padding-left: 3%;
+}
+.device-id{
+    padding-bottom: 2%;
+}
+
+
+.mac-address-title{
+    display: flex;
+    padding-bottom:2% ;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.speed-id {
+    padding-bottom: 10%;
+    padding-left: 3%;
+}
+.orginal-mac-address{
+    padding-left: 0%;
+}
+.active-mac-address{
+    padding-left: 0%;
+}
+
+.Change-Mac-Title{
+    padding-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.type-mac{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.random-button{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    background-color: #161616;
+    border: solid 2px white;
+    color: white;
+    width:80px;
+}
+
+
+
+.confirm-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.fa-solid{
+    scale: 1.5;
+    
+}
+
+.colorRed {
+    color: red;
+}
+.colorGreen {
+    color: green;
+}
+.colorYellow {
+    color: yellow;
+}
+
+
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+
+.flex-box-for-buttons{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hidden{
+   display:none; 
+}
+
+
+
+
+
+
+.click-box{
+    height:20px;
+    width:20px;
+    text-align: center;
+    
+}
+
+
+.flexForClickBox{
+    display: flex;
+    
+}
+
+.gap-for-click-box-2 {
+    width: 5px;
+    height:10px;
+
+}
+.gap-for-click-box-1 {
+    width: 50px;
+    height:10px;
+
+}
+.ChangeMacConfirm .RandomButtonReal{
+    height:10px;
+}
